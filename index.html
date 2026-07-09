@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bashyam Devi Prasad | Portfolio</title>
+<title>Bashyam Devi Prasad | Data Analyst Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,12 +11,14 @@
 <header>
   <div class="container">
     <h1>Bashyam Devi Prasad</h1>
-    <p>Aspiring Data Analyst | ECE Student</p>
+    <p class="tagline">Aspiring Data Analyst | ECE Student | Google Certified</p>
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
       <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -25,11 +27,11 @@
 <section id="about" class="container">
   <h2>About Me</h2>
   <p>
-    Final year Electronics and Communication Engineering student with a strong 
-    analytical foundation from embedded systems and hardware-based projects. 
-    Currently building practical data analytics skills in Excel, SQL, and Power BI. 
-    Eager to apply analytical thinking and problem-solving skills in an entry-level 
-    Data Analyst role.
+    Final year Electronics and Communication Engineering student with a
+    strong analytical foundation and real-world data preparation experience.
+    Completed the Google Data Analytics Professional Certificate (9 courses)
+    covering SQL, spreadsheets, data visualization, and data-driven decision
+    making. Eager to apply analytical skills in an entry-level Data Analyst role.
   </p>
 </section>
 
@@ -38,15 +40,26 @@
   <div class="skills-grid">
     <div class="skill-card">
       <h3>Data Analysis</h3>
-      <p>Excel (Formulas, Pivot Tables, VLOOKUP), Power BI (Dashboards, Basic Visuals)</p>
+      <p>Excel (Formulas, Pivot Tables, VLOOKUP, Data Preparation, Charts),
+      Power BI (Dashboards, Basic Visuals, Filters), Spreadsheets,
+      Data Cleaning</p>
     </div>
     <div class="skill-card">
       <h3>Database</h3>
-      <p>SQL (SELECT, WHERE, GROUP BY, JOINs), MySQL</p>
+      <p>SQL (SELECT, WHERE, GROUP BY, JOINs, ORDER BY), MySQL</p>
     </div>
     <div class="skill-card">
       <h3>Programming</h3>
-      <p>Python (Pandas Basics), C Programming Basics</p>
+      <p>Python (Pandas Basics), R Programming Basics, C Programming Basics</p>
+    </div>
+    <div class="skill-card">
+      <h3>Concepts</h3>
+      <p>Data-Driven Decision Making, Data Visualization, Data Lifecycle,
+      Data Integrity, Analysis Process</p>
+    </div>
+    <div class="skill-card">
+      <h3>Web Development</h3>
+      <p>HTML, CSS (Built and hosted this portfolio website)</p>
     </div>
     <div class="skill-card">
       <h3>Tools</h3>
@@ -55,73 +68,177 @@
   </div>
 </section>
 
+<section id="experience" class="container">
+  <h2>Experience</h2>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <h3>Data Preparation Associate</h3>
+      <span class="company">Equitron Medica Private Limited</span>
+      <span class="date">May 2025 - July 2025</span>
+    </div>
+    <ul>
+      <li>Prepared and organized autoclave performance qualification cycle
+      data in Excel for verification purposes across a 2-month period.</li>
+      <li>Ensured accuracy and consistency of recorded values including time,
+      temperature, and pressure readings for quality compliance review.</li>
+      <li>Structured raw cycle data into organized Excel sheets to support the
+      QA team during the verification and validation process.</li>
+      <li>Cross-checked data entries against instrument readings to maintain
+      data integrity before final documentation.</li>
+    </ul>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <h3>Embedded Systems Intern</h3>
+      <span class="company">Kitscart Innovation</span>
+    </div>
+    <ul>
+      <li>Worked on an Arduino-based temperature monitoring module and tested
+      sensor communication using TinkerCAD simulations.</li>
+      <li>Assisted in debugging communication between sensors and
+      microcontrollers.</li>
+    </ul>
+  </div>
+</section>
+
 <section id="projects" class="container">
-  <h2>Projects</h2>
+  <h2>Data Analytics Projects</h2>
 
   <div class="project-card">
     <h3>Sales Data Analysis Using Excel</h3>
-    <p>Analyzed a retail sales dataset using Pivot Tables and formulas to identify 
-    top-selling products and monthly sales trends.</p>
+    <span class="tech-tag">Excel</span>
+    <span class="tech-tag">Pivot Tables</span>
+    <span class="tech-tag">VLOOKUP</span>
+    <p>Analyzed a sample retail sales dataset using Pivot Tables and basic
+    formulas. Identified top-selling products and summarized monthly sales
+    trends using simple charts for easy interpretation.</p>
   </div>
 
   <div class="project-card">
     <h3>Database Queries Using SQL</h3>
-    <p>Wrote SQL queries including SELECT, WHERE, GROUP BY, and JOINs on a sample 
-    database to answer business questions.</p>
+    <span class="tech-tag">SQL</span>
+    <span class="tech-tag">MySQL</span>
+    <span class="tech-tag">JOINs</span>
+    <p>Wrote basic SQL queries including SELECT, WHERE, GROUP BY, and simple
+    JOINs on a sample database to answer business questions such as
+    department-wise employee counts and identifying top performers.</p>
   </div>
 
   <div class="project-card">
     <h3>Interactive Sales Dashboard Using Power BI</h3>
-    <p>Built a one-page dashboard showing total revenue, top categories, and 
-    monthly trends using bar charts, pie charts, and filters.</p>
+    <span class="tech-tag">Power BI</span>
+    <span class="tech-tag">Dashboard</span>
+    <span class="tech-tag">Data Visualization</span>
+    <p>Built a one-page interactive dashboard using a public sales dataset,
+    displaying total revenue, top-selling categories, and monthly trends
+    through bar charts, pie charts, and basic filters.</p>
   </div>
+
+  <h2>Additional Projects</h2>
 
   <div class="project-card">
     <h3>Multipurpose Agribot</h3>
-    <p>Designed a prototype robot using Arduino and motor drivers to assist 
-    small-scale farmers with pesticide spraying and weed cutting.</p>
+    <span class="tech-tag">Arduino</span>
+    <span class="tech-tag">Motor Drivers</span>
+    <p>Designed a prototype robot using Arduino and motor driver modules to
+    assist small-scale farmers with pesticide spraying and weed cutting.</p>
   </div>
 
   <div class="project-card">
     <h3>Non-Invasive Glucometer with Bluetooth Monitoring</h3>
-    <p>Built a prototype device using an infrared sensor and Arduino to estimate 
-    glucose levels and send data via Bluetooth.</p>
+    <span class="tech-tag">Arduino</span>
+    <span class="tech-tag">Bluetooth</span>
+    <span class="tech-tag">Sensors</span>
+    <p>Built a prototype device using an infrared sensor and Arduino to
+    estimate glucose levels and transmit readings to a mobile interface
+    via Bluetooth.</p>
   </div>
 
   <div class="project-card">
     <h3>Python Task Manager Application</h3>
-    <p>Built a command-line Python application to add, view, and manage tasks 
-    with file-based storage.</p>
+    <span class="tech-tag">Python</span>
+    <span class="tech-tag">File I/O</span>
+    <p>Built a command-line Python application to add, view, and manage
+    tasks with file-based storage.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Personal Portfolio Website</h3>
+    <span class="tech-tag">HTML</span>
+    <span class="tech-tag">CSS</span>
+    <span class="tech-tag">GitHub Pages</span>
+    <p>Created this responsive portfolio website using HTML and CSS to
+    showcase projects, skills, and experience. Hosted on GitHub Pages.</p>
   </div>
 
 </section>
 
-<section id="experience" class="container">
-  <h2>Experience</h2>
-
-  <div class="project-card">
-    <h3>Data Preparation Intern – Equitron Medica Private Limited</h3>
-    <p>Prepared and organized autoclave performance qualification cycle data in 
-    Excel for verification purposes, ensuring accuracy and consistency for 
-    quality compliance review.</p>
+<section id="certifications" class="container">
+  <h2>Certifications</h2>
+  <div class="cert-card">
+    <h3>Google Data Analytics Professional Certificate</h3>
+    <span class="company">Google (Coursera) | Completed all 9 of 9 courses</span>
+    <div class="cert-topics">
+      <span class="tech-tag">Data Analysis</span>
+      <span class="tech-tag">SQL</span>
+      <span class="tech-tag">Spreadsheets</span>
+      <span class="tech-tag">Data Visualization</span>
+      <span class="tech-tag">Data Cleaning</span>
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">R Programming</span>
+      <span class="tech-tag">Case Study</span>
+    </div>
+    <p class="cert-courses">Courses completed: Foundations: Data Everywhere |
+    Ask Questions to Make Data-Driven Decisions | Prepare Data for Exploration |
+    Process Data from Dirty to Clean | Analyze Data to Answer Questions |
+    Share Data Through the Art of Visualization | Introduction to Data Analysis
+    Using Python | Google Data Analytics Capstone | Accelerate Your Job Search
+    with AI</p>
   </div>
+</section>
 
-  <div class="project-card">
-    <h3>Embedded Systems Intern – Kitscart Innovation</h3>
-    <p>Worked on an Arduino-based temperature monitoring module and tested 
-    sensor communication using TinkerCAD simulations.</p>
+<section id="education" class="container">
+  <h2>Education</h2>
+  <div class="experience-card">
+    <div class="experience-header">
+      <h3>BTech in Electronics and Communication Engineering</h3>
+      <span class="company">St Peters Engineering College, JNTU Hyderabad</span>
+      <span class="date">Graduating 2026 | CGPA: 6.95</span>
+    </div>
   </div>
+</section>
 
+<section id="achievements" class="container">
+  <h2>Achievements</h2>
+  <ul class="achievements-list">
+    <li>Completed Google Data Analytics Professional Certificate
+    (9 courses) by Google.</li>
+    <li>Presented working prototype at department project expo, 2025.</li>
+    <li>Built and deployed a live portfolio website using GitHub Pages.</li>
+  </ul>
 </section>
 
 <section id="contact" class="container">
   <h2>Contact Me</h2>
-  <p>Email: deviprasad44044@gmail.com</p>
-  <p>Phone: +91 8074086302</p>
-  <p>
-    <a href="https://linkedin.com/in/bashyam-devi-prasad" target="_blank">LinkedIn</a> | 
-    <a href="https://github.com/DeviPrasad-44044" target="_blank">GitHub</a>
-  </p>
+  <div class="contact-grid">
+    <div class="contact-item">
+      <h3>Email</h3>
+      <p>deviprasad44044@gmail.com</p>
+    </div>
+    <div class="contact-item">
+      <h3>Phone</h3>
+      <p>+91 8074086302</p>
+    </div>
+    <div class="contact-item">
+      <h3>Links</h3>
+      <p>
+        <a href="https://linkedin.com/in/bashyam-devi-prasad" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/DeviPrasad-44044" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </div>
 </section>
 
 <footer>
